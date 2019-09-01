@@ -9,7 +9,7 @@
 #
  
  
-from Tkinter import *
+from Tkinter import 
 import Tix # Jangan lupa!
 import tkMessageBox as mb
  

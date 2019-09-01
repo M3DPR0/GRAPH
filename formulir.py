@@ -7,9 +7,6 @@
 # Tgl pembuatan: 4 Januari 2013 at 15.35 WIB
 # Penulis: KlinikPython.wordpress.com
 #
- 
- 
-from Tkinter import 
 import Tix # Jangan lupa!
 import tkMessageBox as mb
  

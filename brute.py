@@ -58,7 +58,7 @@ def main():
     print RR+"  +============================================+"
     print RR+"  |         SCRIPT     : File OSIF             |"
     print RR+"  |         REPOSTORY  : SAN-Brother           |"
-    print RR+"  |         CODER	     : Susanto               |"
+    print RR+"  |         CODER	     : Susanto             |"
     print RR+"  |         PROGRAM    : Versi.1.0.1           |"
     print RR+"  |--------------------------------------------|"
     print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"

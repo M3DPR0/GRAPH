@@ -40,23 +40,7 @@ def runntek(s):
                 time.sleep(10. / 100)
 
 
-    print " "
-    runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
-    runntek(BB+" Memasuki system...")
-    time.sleep(1)
-    print " "
-    print RR+"  +============================================+"
-    print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
-    print RR+"  +============================================+"
-    print RR+"  |         SCRIPT     : File OSIF             |"
-    print RR+"  |         REPOSTORY  : SAN-Brother           |"
-    print RR+"  |         CODER	     : Susanto               |"
-    print RR+"  |         PROGRAM    : Versi.1.0.1           |"
-    print RR+"  |--------------------------------------------|"
-    print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
-    print RR+"  |--------------------------------------------|"
-    print RR+"  +============================================+" 
-   
+    
 
 email = str(raw_input(BB+"Target Crack... \033[33;1m: "))
 
@@ -124,7 +108,25 @@ def search():
         for password in passwords:
                 passwords = password.replace("\n","")
                 brute(password)
-
+#banner
+def banner ():
+print " "
+    runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
+    runntek(BB+" Memasuki system...")
+    time.sleep(1)
+    print " "
+    print RR+"  +============================================+"
+    print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
+    print RR+"  +============================================+"
+    print RR+"  |         SCRIPT     : File OSIF             |"
+    print RR+"  |         REPOSTORY  : SAN-Brother           |"
+    print RR+"  |         CODER	     : Susanto               |"
+    print RR+"  |         PROGRAM    : Versi.1.0.1           |"
+    print RR+"  |--------------------------------------------|"
+    print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
+    print RR+"  |--------------------------------------------|"
+    print RR+"  +============================================+" 
+   
 
 #welcome
 def welcome():

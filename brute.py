@@ -34,14 +34,10 @@ if sys.platform == "linux" or sys.platform == "linux2":
      rand = (BB,YY,GG,WW,RR,CC)
      P = random.choice(rand)
 def cover():
-    print ""
-    
-    
-    
-    
-   
+    print " "
     runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
-   
+    runntek(BB+" Memasuki system...")
+    time.sleep(1)
     print " "
     print RR+"  +============================================+"
     print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
@@ -54,10 +50,7 @@ def cover():
     print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
     print RR+"  |--------------------------------------------|"
     print RR+"  +============================================+" 
-    runntek(BB+" Memasuki system...")
-    time.sleep(1)
-
-######
+   
 
 email = str(raw_input(BB+"Target Crack... \033[33;1m: "))
 
@@ -140,11 +133,11 @@ def welcome():
         total = open(passwordlist,"r")
         total = total.readlines()
         print " "
-        print GL+" [*] Crack Akun : {}".format(email)
+        print WW+" [*] Crack Akun : {}".format(email)
         print RR+" [*] Password Terbaca :" , len(total),WW+ "passwords"
 	print " "
         runntek(BB+" █████████████ █████████████")
-	runntek(BB+" Sedang memulai ...")
+	runntek(WW+" Sedang memulai ...")
         time.sleep(1)
 
 if __name__ == '__main__':

@@ -33,7 +33,13 @@ if sys.platform == "linux" or sys.platform == "linux2":
      C = "\033[36;1m"    # Cyan
      rand = (BB,YY,GG,WW,RR,CC)
      P = random.choice(rand)
-def cover():
+def runntek(s):
+        for c in s + '\n':
+                sys.stdout.write(c)
+                sys.stdout.flush()
+                time.sleep(10. / 100)
+
+
     print " "
     runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
     runntek(BB+" Memasuki system...")
@@ -66,11 +72,6 @@ login = 'https://www.facebook.com/login.php?login_attempt=1'
 useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
 
 
-def runntek(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(10. / 100)
 
 def main():
         global br

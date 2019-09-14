@@ -34,12 +34,12 @@ if sys.platform == "linux" or sys.platform == "linux2":
      rand = (BB,YY,GG,WW,RR,CC)
      P = random.choice(rand)
 def cover():
-    print """
+    print ""
     
     
     
     
-     """
+   
     runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
    
     print " "

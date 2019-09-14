@@ -110,11 +110,11 @@ def search():
                 brute(password)
 #banner
 def banner ():
-print " "
+    print " "
     runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
     runntek(BB+" Memasuki system...")
     time.sleep(1)
-    print " "
+    
     print RR+"  +============================================+"
     print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
     print RR+"  +============================================+"

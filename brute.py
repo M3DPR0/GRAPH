@@ -52,7 +52,22 @@ useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/
 
 
 def main():
-        banner()
+    print " "
+    print RR+"  +============================================+"
+    print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
+    print RR+"  +============================================+"
+    print RR+"  |         SCRIPT     : File OSIF             |"
+    print RR+"  |         REPOSTORY  : SAN-Brother           |"
+    print RR+"  |         CODER	     : Susanto               |"
+    print RR+"  |         PROGRAM    : Versi.1.0.1           |"
+    print RR+"  |--------------------------------------------|"
+    print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
+    print RR+"  |--------------------------------------------|"
+    print RR+"  +============================================+" 
+    print " "
+    runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
+    runntek(BB+" Memasuki system...")
+    time.sleep(1)
         global br
         br = mechanize.Browser()
         cj = cookielib.LWPCookieJar()
@@ -103,25 +118,6 @@ def search():
         for password in passwords:
                 passwords = password.replace("\n","")
                 brute(password)
-#banner
-def banner ():
-    print " "
-    runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
-    runntek(BB+" Memasuki system...")
-    time.sleep(1)
-    
-    print RR+"  +============================================+"
-    print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
-    print RR+"  +============================================+"
-    print RR+"  |         SCRIPT     : File OSIF             |"
-    print RR+"  |         REPOSTORY  : SAN-Brother           |"
-    print RR+"  |         CODER	     : Susanto               |"
-    print RR+"  |         PROGRAM    : Versi.1.0.1           |"
-    print RR+"  |--------------------------------------------|"
-    print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
-    print RR+"  |--------------------------------------------|"
-    print RR+"  +============================================+" 
-   
 
 #welcome
 def welcome():

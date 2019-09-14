@@ -41,20 +41,21 @@ def cover():
     
      """
     runntek(BB+"          ███████████████  OSIF...F8 MODULE. . ...")
-    time.sleep(1)
+   
     print " "
     print RR+"  +============================================+"
     print RR+"  | PROGRAM PENGEMBANGAN SYSTEM KEAMANAN M3DPR0|"
     print RR+"  +============================================+"
     print RR+"  |         SCRIPT     : File OSIF             |"
     print RR+"  |         REPOSTORY  : SAN-Brother           |"
-    print RR+"  |         CODER	     : Susanto              |"
+    print RR+"  |         CODER	     : Susanto               |"
     print RR+"  |         PROGRAM    : Versi.1.0.1           |"
     print RR+"  |--------------------------------------------|"
     print RR+"  |     OPEN SOURC INFORMATION FACEBOOK F8     |"
     print RR+"  |--------------------------------------------|"
     print RR+"  +============================================+" 
-
+    runntek(BB+" Memasuki system...")
+    time.sleep(1)
 
 ######
 
@@ -107,7 +108,7 @@ def kol():
     else:
         exit(0)
 def brute(password):
-        sys.stdout.write(RR+"\r[+]\033[97;1m Mencoba... {}\n".format(password))
+        sys.stdout.write(RR+"\r[+]\033[97;1m Login {}\n".format(password))
         sys.stdout.flush()
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
@@ -142,8 +143,8 @@ def welcome():
         print GL+" [*] Crack Akun : {}".format(email)
         print RR+" [*] Password Terbaca :" , len(total),WW+ "passwords"
 	print " "
-        runntek(RR+" █████████████ ")
-	runntek(RR+" Sedang memulai ...")
+        runntek(BB+" █████████████ █████████████")
+	runntek(BB+" Sedang memulai ...")
         time.sleep(1)
 
 if __name__ == '__main__':

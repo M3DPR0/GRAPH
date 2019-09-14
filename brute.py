@@ -11,12 +11,6 @@ import time
 
 os.system('clear')
 
-def runntek(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(10. / 100)
-
 if sys.platform == "linux" or sys.platform == "linux2":
      GL = "\033[96;1m" # Blue aqua
      BB = "\033[34;1m" # Blue light
@@ -58,6 +52,7 @@ useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/
 
 
 def main():
+        banner()
         global br
         br = mechanize.Browser()
         cj = cookielib.LWPCookieJar()

